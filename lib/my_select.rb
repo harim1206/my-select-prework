@@ -6,7 +6,6 @@ def my_select(collection)
  newCollect = []
 
  while i < collection.length
-   puts("YIELD: #{yield collection[i]}")
    if yield collection[i] == true
      newCollect.push(collection[i])
    end
