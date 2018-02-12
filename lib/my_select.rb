@@ -10,6 +10,6 @@ def my_select(collection)
    i += 1
  end
 
- newCollect
+ collection
 
 end
